@@ -1,0 +1,18 @@
+[project]
+name = "env-sync-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.116.1",
+    "granian>=2.4.2",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.5",
+    "ty>=0.0.1a16",
+]
